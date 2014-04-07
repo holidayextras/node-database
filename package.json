@@ -1,0 +1,14 @@
+{
+  "name": "database",
+  "version": "0.0.1",
+  "description": "A clean database abstraction that everyone should use instead of re-inventing the wheel",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:holidayextras/node-database.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mysql": "2.1.1"
+  }
+}
