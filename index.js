@@ -81,5 +81,5 @@ database._checkSetCache = function(options, results) {
   if (!this._cache || !options.cacheDuration) return;
   if (!results || (results.length == 0 && !options.cacheEmptyResults)) return;
 
-  this._cache.storeObject(projectName + (options.caller || ''), options, results);
+  this._cache.storeObject(projectName + (options.caller || ''), options, results, options.cacheDuration);
 };
