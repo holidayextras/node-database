@@ -60,6 +60,13 @@ database.query = function(options, callback) {
   });
 };
 
+database.close = function(callback) {
+  if (!this._pool) {
+    throw new Error('Database hasn\'t been configured yet!');
+  }
+  this._pool.end(callback);
+};
+
 database._checkGetCache = function(options, callback, next) {
   if (!this._cache || !options.cacheDuration) return next();
 
