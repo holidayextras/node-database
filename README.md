@@ -43,4 +43,4 @@ database.query({
 
 Port, specify the port number you want to use to connect, e.g. `port: 3000`. Will resort to the default port if not used.
 
-Timezone, specify the timezone you want to use when connecting to the database, e.g. `timezone: '0000'`. Will default to the system timezone if not specified.
+Timezone, specify the timezone you want to use when connecting to the database, e.g. `timezone: '0000'` for UTC. Will default to the system timezone if not specified.
