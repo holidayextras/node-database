@@ -38,3 +38,7 @@ database.query({
 
 });
 ```
+
+##### Additional Configuration Options
+
+Timezone, specify the timezone you want to use when connecting to the database, e.g. `timezone: '+0000'` for UTC. Will default to the system timezone if not specified.

@@ -23,6 +23,7 @@ database.configureWith = function(config) {
     user: config.username,
     password: config.password,
     connectionLimit: config.connectionLimit || 40,
+    timezone: config.timezone || '',
     createConnection: function(options) {
       var connection = mysql.createConnection(options);
 
