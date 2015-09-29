@@ -1,6 +1,6 @@
 {
   "name": "database",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A clean database abstraction that everyone should use instead of re-inventing the wheel",
   "main": "index.js",
   "repository": {
