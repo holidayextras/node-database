@@ -19,6 +19,7 @@ database.useCache = function(cache) {
 database.configureWith = function(config) {
   this._pool = mysql.createPool({
     host: config.host,
+    port: config.port,
     database: config.database || '',
     user: config.username,
     password: config.password,
